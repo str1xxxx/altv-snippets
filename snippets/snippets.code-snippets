@@ -2,25 +2,25 @@
     "natives": {
         "scope": "javascript, typescript",
         "prefix": "game",
-        "body": ["import game from 'natives'"],
+        "body": ["import game from 'natives';"],
         "description": "This snippet imports natives"
     },
     "altv-server": {
         "scope": "javascript, typescript",
         "prefix": "alts",
-        "body": ["import alt from 'alt-server'"],
+        "body": ["import alt from 'alt-server';"],
         "description": "This snippet imports altv server"
     },
     "altv-client": {
         "scope": "javascript, typescript",
         "prefix": "altc",
-        "body": ["import alt from 'alt-client'"],
+        "body": ["import alt from 'alt-client';"],
         "description": "This snippet imports altv client"
     },
     "altv-rpc": {
         "scope": "javascript, typescript",
         "prefix": "rpc",
-        "body": ["import rpc from 'alt-rpc'"],
+        "body": ["import rpc from 'alt-rpc';"],
         "description": "This snippet imports altv rpc"
     },
 }
